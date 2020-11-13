@@ -9,7 +9,7 @@
 
 
 
-##1. General Checks
+## 1. General Checks
 ### 1.1 - OS Support
 The operating system must be under support.
 * SUSE Linux Enterprise Server 12': '2024-10-31',
