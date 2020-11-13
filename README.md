@@ -1,6 +1,31 @@
+![Python][python-shield]
+
+
 # Linux Secure HealthCheck
  Command line application to validate secure configuration on Linux servers
- 
+
+## Prerequisites
+```
+pip install requests
+pip install cx_freeze #for build only
+```
+
+## Usage
+```
+python Main.py
+```
+or
+```
+chmod +x linux_security_healthcheck.sh
+./linux_security_healthcheck.sh
+```
+
+## Build
+
+```
+python setup.py build
+```
+
  
 <!-- TABLE OF CONTENTS -->
 ## Checks Baselines
@@ -162,3 +187,5 @@ auth,authpriv.* /var/log/auth.log
 ## 4. Authorization Controls
 ### 4.1 - Ftp account home directory
 * If it exists and anonymous ftp is enabled, it must be owned by root and grant write access only to the owner
+
+[python-shield]: https://img.shields.io/badge/python-3.8.3-green
