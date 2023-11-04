@@ -1,8 +1,8 @@
 ![Python][python-shield]
 
 
-# Linux Secure HealthCheck
- Command line application to validate secure configuration on Linux servers
+# Linux Security Hardening
+ Command line application to validate security hardening configuration on Linux servers
 
 ## Prerequisites
 ```
